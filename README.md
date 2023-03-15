@@ -1,10 +1,8 @@
-- 👋 Hi, I’m @AliAkbarKhasanov
-- 👀 I’m interested in creating websites...
-- 🌱 I am currently self-studying via the Internet and I want to find an Ausbildung for the profession of a programmer ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me aliakbar.khasanov21@gmail.com 
--    My phone numbers: +49 157 53 04 5588
-<!---
-AliAkbarKhasanov/AliAkbarKhasanov is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Ali-Akbar Khasanov
+Ich beschäftige mich seit 2022 mit der Webentwicklung.
+
+Im Jahr 2022 gründete er den YouTube-Lernkanal ITDoctor. Ich teile mein Wissen über das Programmieren und erstellen von Websites. Er hat seine eigene Lernmethode entwickelt, die es den Schülern ermöglicht, das Beste daraus zu machen das zu untersuchende Material effektiv zu beherrschen.
+
+Ich lerne die Sprachen HTML, CSS, JavaScript, PHP, die Arbeit mit Buildern und Versionskontrollsystemen kennen Git und vieles mehr aus der Welt der Webtechnologie. ich mache es selbstständig, aber ich möchte bereits mit der Gruppe arbeiten
+
+In diesem Video-Kurs möchte ich Ihnen beibringen, wie Sie die Baustelle mit Ihnen teilen können - das sind die Sprachen HTML und CSS. Diese Sprachen sind jeder, der sich in diesem Bereich entwickeln möchte, sollte sie kennen und kennen. Sie erhalten das Wissen, das Sie in benötigen am Anfang des Weges eines jeden Webentwicklers, und verwenden Sie sie für den gesamten Weg. Alle die theoretischen Informationen sind in Regalen verteilt, verfügbar erklärt und durch praktische Aufgaben unterstützt und Hausarbeiten. Der Kurs soll keine zusätzlichen Informationen enthalten, wodurch es Ihnen ermöglicht, besser zu lernen material, das wirklich wichtig ist.
