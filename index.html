@@ -1,226 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Tinos:ital,wght@1,700&display=swap" rel="stylesheet">
-    <title>Restoran</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/authorA.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Video kurs</title>
 </head>
+
 <body>
-    <div class="header">
-        <div class="container">
-
-        <div class="header-line">
-            <div class="header-logo">
-                <img src="logo.png" alt="">
-            </div>
-            <div class="nav">
-            <a class="nav-item" href="@">IMPORTENT</a>
-            <a class="nav-item" href="@">MENU</a>
-            <a class="nav-item" href="@">ABOUT US</a>
-            <a class="nav-item" href="@">BOOKING</a>
-            </div>
-            <div class='Cart'>
-                <a href="#">
-                    <img class='cart-img' src="cart.png" alt="">
-                </a>
-            </div>
-            <div class="phone">
-                <div class="phone-holder">
-                <div class="phone-img">
-                    <img src="phone.png" alt="">
-                </div>
-                <div class="number"> <a class="num" href="#"> +49 15753045588 </a>
-                </div>
-            </div>
-                <div class="phone-text">
-                    CALL US <br>TO BOOKING
-                </div>
-                </div>
-
-                <div class="btn">
-                   <a class="button" href="#"> BOOKING A TABLE  </a>
-                </div>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center text-white">Video-Layout-Kurs für Anfänger HTML & CSS</h1>
+          <div class="itd_play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="itd_triangle"></div>
+          </div>
+          <a href="#footer" class="btn btn-itd btn-lg text-uppercase">Bestellen</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- О Курсе -->
+  <section class="abaut">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center text-uppercase color1 mb-5">Über den Kurs</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle text-center"><i class="icon-list-numbered"></i></div>
+          <h5 class="text-center">Strukturiertes Material</h5>
+          <div class="line"></div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle text-center"><i class="icon-rouble"></i></div>
+          <h5 class="text-center">Symbolischer Preis</h5>
+          <div class="line"></div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle text-center"><i class="icon-chart-bar"></i></div>
+          <h5 class="text-center">Lebenslanger Zugang</h5>
+          <div class="line"></div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle text-center"><i class="icon-code"></i></div>
+          <h5 class="text-center">Praktische Aufgaben</h5>
+          <div class="line"></div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle text-center"><i class="icon-file-video"></i></div>
+          <h5 class="text-center">35 video-Lektionen (5 Stunden)</h5>
+          <div class="line"></div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle text-center"><i class="icon-mobile"></i></div>
+          <h5 class="text-center">Anzeigen von einem Smartphone</h5>
+          <div class="line"></div>
         </div>
 
-        <div class="header-down">
-
-            <div class="header-title">WELCOME TO
-s
-                <div class="header-subtitle">OUR RESTAURANT
-
-                </div>
-
-            <div class="header-suptitle">THE HAUS OF THE BEST FOOD
-            </div>
-            <div class="header-bth">
-                <a href="#" class="header-button">VIEW MENU</a>
-            </div>
-
-            </div>
+      </div>
+    </div>
+  </section>
+  <!-- Для кого -->
+  <section class="fürwen">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center color2 mb-5">EIN KURS FÜR DIEJENIGEN, DIE</h5>
         </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-md-6 col-sm-12">
+          <h5 class="text-center">Möchte lernen, wie man Websites aus eigener Kraft erstellt</h5>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h5 class="text-center">Lernt moderne Entwicklungswerkzeuge</h5>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h5 class="text-center">Kennt die Sprache HTML und CSS noch nicht, möchte aber lernen</h5>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h5 class="text-center">Will ein cooler Meister werden und Geld verdienen</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <a href="#footer" class="btn btn-itd btn-lg text-uppercase">Bestellen</a>
+        </div>
+      </div>
     </div>
     </div>
-
-    <div class="cards">
-        
-        <div class="container">
-
-            <div class="cards-holder">
-
-        <div class="card">
-
-            <div class="card-image">
-                <img class="card-img" src="card.png">
-            </div>
-
-            <div class="card-title">Magical <span>Atmosphere</span>
-            </div>
-
-            <div class="card-desk">Our establishment has a magical atmosphere
-                filled with delicious flavors   </div>
-
+  </section>
+  <!-- Акардион -->
+  <section class="program">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center color1 mb-3">KURSPROGRAMM</h2>
         </div>
-
-        <div class="card">
-
-            <div class="card-image">
-                <img class="card-img" src="card.png">
-            </div>
-
-            <div class="card-title"> Best Quality <span>Food </span>
-
-            </div>
-
-            <div class="card-desk">The quality of our 
-                The food is excellent!  </div>
-
-        </div>
-
-        <div class="card">
-
-            <div class="card-image">
-                <img class="card-img" src="card.png">
-            </div>
-
-            <div class="card-title"> Inexpensive <span>Food </span></div>
-
-            <div class="card-desk">The cost of our Food
-                depends only on its
-                quantity. The quality
-                is always on top! </div>
-
-        </div>
-
-    </div>
-        </div>
-    </div>
-
-    <div class="history">
-        <div class="container">
-            <div class="history-holder">
-            <div class="history-info">
-        <div class="history-title">
-            Our <span>History</span>
-        </div>
-
-        <div class="history-desc">
-            Like any other distinctive place, we have our own, special history. The idea of the restaurant came to the founders unexpectedly. While walking through the forest, the creator of our restaurant got stuck hundreds of kilometers from the nearest settlement. Far from civilization and communication, they had to manage their simple life for a while, get and cook their own food.
-        </div>
-
-        <div class="history-nummber">
-            <div class="nummber-iteam">
-                93 <span>Food</span>
-            </div>
-
-            <div class="nummber-iteam">
-                206 <span>Drinks</span>
-            </div>
-
-            <div class="nummber-iteam">
-                71 <span>Appetizer</span>
-            </div>
-        </div>
-    </div>
-
-    <div class="history-img">
-        <img class="images-1" src="1.jpg" alt="">
-        <img class="images-2" src="2.jpg" alt="">
-        <img class="images-3" src="3.jpg" alt="">
-    </div>
-</div>
-
-        </div>
-    </div>
-
-    <div class="black-block">
-
-        <div class="container">
-
-            <div class="block-holder">
-
-            <div class="left">
-                <div class="left-title">
-                    Celebrate in one of <br>the best restaurants
+      </div>
+      <div class="row">
+        <!--Erste Acardion-->
+        <div class="col-md-4 col-sm-12">
+          <h4 class="text-center fw-bold mb-3 mt-3">Modul 1 <br>(HTML)</h4>
+          <div class="accordion" id="accordionExample">
+            <!-- Öffene Element -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading1">
+                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+                  aria-expanded="true" aria-controls="collapse1">
+                  Einleitung
+                </button>
+              </h2>
+              <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body fst-italic">
+                  <strong>Ein kurzer Überblick darüber, wie</strong> Was wir in diesem Videokurs lernen werden.
+                  <code>.accordion-body Чтобы не забыть</code>
                 </div>
-                <div class="left-text">
-                    This month alone, a business lunch from 25 $
-                </div>
+              </div>
             </div>
+            <!-- Geschlossene Element -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                  Installieren des Browsers und des Code-Editors
+                </button>
+              </h2>
+              <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body fst-italic">
+                  <strong>In diesem Tutorial installieren wir</strong> den Google Chrome-Browser und den VS Code-Editor.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                  Übersicht über die Editor-Funktionen
+                </button>
+              </h2>
+              <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body fst-italic">
+                  <strong>Sehen wir uns die Funktionen des VS Code-Editors an</strong> und lernen Sie, wie Sie damit
+                  arbeiten
+                </div>
+              </div>
+            </div>
+          </div>
 
-            <div class="right">
-                <div class="right-button">
-                    <a href="#" class="right-btn">TABLE RESERVATION</a>
-                </div>
-            </div>
         </div>
-    </div>
 
-    </div>
-
-    <div class="dishes">
-
-        <div class="container">
-
-            <div class="dishes-title">
-                Our <span>Dishes</span>
-            </div>
-
-            <div class="burgers">
-                <div class="burgers-img">
-                    <img src="pizza.jpg" class="pizza">
+        <!--Zweite Acardion-->
+        <div class="col-md-4 col-sm-12">
+          <h4 class="text-center fw-bold mb-3 mt-3">Modul 2 <br>(CSS)</h4>
+          <div class="accordion" id="accordion2">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading4">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4"
+                  aria-expanded="true" aria-controls="collapse4">
+                  CSS-Selektoren
+                </button>
+              </h2>
+              <div id="collapse4" class="accordion-collapse collapse show" aria-labelledby="heading4"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body fst-italic">
+                  <strong>Schauen wir uns die wichtigsten CSS-Selektoren an,</strong> um herauszufinden, was sie sind
+                  und warum sie benötigt werden.
                 </div>
-
-                <div class="burgers-items">
-                    <div class="burger-item">
-                        <img src="burger.jpg" class="burger">
-                        <div class="burger-text">
-                            Hamburger mini------------3$
-                        </div>
-                    </div>
-
-                    <div class="burger-item">
-                        <img src="burger.jpg" class="burger">
-                        <div class="burger-text">
-                            Hamburger mini------------3$
-                        </div>
-                    </div>
-
-                    <div class="burger-item">
-                        <img src="burger.jpg" class="burger">
-                        <div class="burger-text">
-                            Hamburger mini------------3$
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                  Arbeiten mit Bildern
+                </button>
+              </h2>
+              <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body fst-italic">
+                  <strong> Erfahren Sie,</strong> wie Sie mit Bildern in CSS arbeiten.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                  Geltungsbereich
+                </button>
+              </h2>
+              <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body fst-italic">
+                  <strong> In diesem Lernprogramm erfahren Sie,</strong> wie Sie Grenzen um jedes Element auf der
+                  Website erstellen und formatieren.
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
-    </div>
 
+        <!--Driete Acardion-->
+        <div class="col-md-4 col-sm-12">
+          <h4 class="text-center fw-bold mb-3 mt-3">Modul 3 <br>(Praxis)</h4>
+          <div class="accordion" id="accordion3">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading7">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7"
+                  aria-expanded="true" aria-controls="collapse7">
+                  Layout des Site-Menüs
+                </button>
+              </h2>
+              <div id="collapse7" class="accordion-collapse collapse show" aria-labelledby="heading7"
+                data-bs-parent="#accordion3">
+                <div class="accordion-body fst-italic">
+                  <strong>Eine Lektion,</strong> in der wir ein Fragment einer modernen Website bilden werden, indem wir
+                  alle zuvor erworbenen Kenntnisse verwenden.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading8">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                  Hausaufgabe
+                </button>
+              </h2>
+              <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8"
+                data-bs-parent="#accordion3">
+                <div class="accordion-body fst-italic">
+                  <strong>Hausaufgaben, </strong> um den in der vorherigen Lektion gelernten Stoff zu festigen.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading9">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                  Layout des Websitefragments
+                </button>
+              </h2>
+              <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9"
+                data-bs-parent="#accordion3">
+                <div class="accordion-body fst-italic">
+                  <strong>Eine Lektion,</strong>in der wir ein Fragment einer modernen Website bilden werden, indem wir
+                  alle zuvor erworbenen Kenntnisse verwenden.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+  <!-- Процесс обучение -->
+  <section class="learning">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center color2 mb-5 text-uppercase">Lernprozess </h2>
+        </div>
+      </div>
+      <div class="row align-items-center mb-5">
+        <div class="col-lg-9 col-sm-12">
+          <h5>Der Kurs zu HTML und CSS ist in einem speziellen Telegramm-Kanal verfügbar</h5>
+          <h5>wenn Sie Fragen haben, können Sie mich über Instagram kontaktieren <a href="#" target="_blank">hier</a>
+          </h5>
+          <h5>Ich habe versucht, Videos so zu erstellen , dass sie von einem mobilen Gerät aus betrachtet werden können
+          </h5>
+        </div>
+        <div class="col-lg-3 col-sm-12 mb-sm-5 mt-sm-5">
+          <img src="img/mockup.png" alt="Процесс обучение" class="img-fluid">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <a href="#footer" class="btn btn-itd btn-lg text-uppercase">Bestellen</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Об Афторе -->
+  <section class="obaftore">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center color1 mb-5 text-uppercase">ÜBER DEN AUTOR </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-9 col-lg-12">
+          <h4>Ali-Akbar Khasanov</h4>
+          <p>Ich beschäftige mich seit 2022 mit der Webentwicklung.</p>
+
+          <p>Im Jahr 2022 gründete er den YouTube-Lernkanal ITDoctor. Ich teile mein Wissen über das Programmieren und
+            erstellen von Websites. Er hat seine eigene Lernmethode entwickelt, die es den Schülern ermöglicht, das
+            Beste daraus zu machen
+            das zu untersuchende Material effektiv zu beherrschen.</p>
+
+          <p>Ich lerne die Sprachen HTML, CSS, JavaScript, PHP, die Arbeit mit Buildern und Versionskontrollsystemen
+            kennen
+            Git und vieles mehr aus der Welt der Webtechnologie. ich mache es selbstständig, aber ich möchte bereits mit
+            der Gruppe arbeiten</p>
+
+          <p>In diesem Video-Kurs möchte ich Ihnen beibringen, wie Sie die Baustelle mit Ihnen teilen können - das sind
+            die Sprachen HTML und CSS. Diese Sprachen sind
+            jeder, der sich in diesem Bereich entwickeln möchte, sollte sie kennen und kennen. Sie erhalten das Wissen,
+            das Sie in benötigen
+            am Anfang des Weges eines jeden Webentwicklers, und verwenden Sie sie für den gesamten Weg. Alle
+            die theoretischen Informationen sind in Regalen verteilt, verfügbar erklärt und durch praktische Aufgaben
+            unterstützt
+            und Hausarbeiten. Der Kurs soll keine zusätzlichen Informationen enthalten, wodurch es Ihnen ermöglicht,
+            besser zu lernen
+            material, das wirklich wichtig ist.</p>
+        </div>
+        <div class="col-sm-3 col-lg-12 text-center">
+          <img src="img/authorA.png" class="img-fluid itd_img" alt="Ali-Akbar Khasanov">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Отзыв о курсе -->
+  <section class="reviews">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center text-uppercase color2 mb-5">Feedback zum Kurs</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <img src="img/people.jpg" class="rounded mx-auto d-block" alt="Фото">
+          <h4 class="text-center mb-3 mt-3">Christina Triboy</h4>
+          <p>Ali-Akbar, vielen Dank! Sie haben einen sehr vernünftigen Kurs erhalten, das Training war einfach und
+            interessant. Erfuhrst
+            viele neue Dinge, besonderer Dank für die vielen nützlichen Informationen am Ende, werden bei der Arbeit
+            sehr nützlich sein
+            und wird viel Zeit sparen. Ich bin sehr froh, dass ich Ihren Kanal für mich entdeckt habe.</p>
+
+          <p>Ich habe etwas zu vergleichen, da ich vor 6 Monaten mit dem Lernen mit 0 in Büchern und anderen Quellen im
+            Internet begonnen habe
+            und ich kann die Lektionen auf dem ITDoctor-Kanal sicher als die besten für Anfänger bezeichnen. Ich habe
+            fast alles überarbeitet, sie sind sehr
+            hochwertig, gut durchdacht, nicht angezogen. Der Autor ist immer in Kontakt, beantwortet Fragen, hilft -
+            einfach fantastisch! ITDoctor ist bereits eine Marke! Mit was hast du, Ali-Akbar und herzlichen Glückwunsch!
+          </p>
+          <div class="line bg2"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Купить -->
+  <section class="buy">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center text-uppercase color1 mb-5">Kaufen</h2>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-5 col-sm-12">
+          <img src="img/preview.png" alt="Купить фото" class="img-fluid mx-auto d-block">
+          <p>Hypertext Markup Language (HTML) und CSS Cascading Style Sheets Tutorial vom Autor
+            itDoctor Bildungskanal. Dies ist ein praktischer Videokurs: In jedem Kapitel wird das theoretische Material
+            durch eine Vielzahl von visuellen Codebeispielen behoben werden.
+
+            35 praktische Lektionen
+            Dauer 5 Stunden
+            Sofort einsatzbereite Codebeispiele
+            Keine zeitliche Begrenzung
+            7 HausaufgabenZ
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <a href="#" target="_blank" class="btn btn-outline-light"><i class="icon-youtube-play"></i></a>
+          <a href="#" target="_blank" class="btn btn-outline-light"><i class="icon-mail-alt"></i></a>
+          <a href="#" target="_blank" class="btn btn-outline-light"><i class="icon-paper-plane"></i></a>
+          <a href="#" target="_blank" class="btn btn-outline-light"><i class="icon-instagram"></i></a>
+          <a href="#" target="_blank" class="btn btn-outline-light"><i class="icon-vkontakte"></i></a>
+          <a href="#" target="_blank" class="btn btn-outline-light"><i class="icon-github-circled"></i></a>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Trailer zum HTML- und CSS-Kurs auf Russisch</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+        </div>
+        <div class="modal-body">
+          <div class='embed-container'><iframe src='https://www.youtube.com/embed//sFRrfUt7jc0' frameborder='0'
+              allowfullscreen></iframe></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
